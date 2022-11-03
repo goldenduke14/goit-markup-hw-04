@@ -47,6 +47,18 @@ img {
   width: 100%;
   height: auto;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* header */
 .header {
   background-color: var(--primary-white-color);
@@ -146,11 +158,11 @@ img {
   text-align: center;
   max-width: 1600px;
   height: 600px;
-  background-color: var(--fourth-bg-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/imghero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: var(--fourth-bg-color);
 }
 .hero-title {
   margin: 0 auto;
@@ -185,18 +197,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -218,7 +218,7 @@ img {
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
-.features-item::before {
+/* .features-item::before {
   display: block;
   content: "";
   margin-bottom: 30px;
@@ -240,7 +240,7 @@ img {
 }
 .icon-spaceman::before {
   background-image: url("../images/spaceman.svg");
-}
+} */
 .features-title {
   margin-top: 0;
   margin-bottom: 10px;
