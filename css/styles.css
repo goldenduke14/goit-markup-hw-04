@@ -351,9 +351,10 @@ img {
 .clients-item {
   width: 170px;
   height: 92px;
+  
 }
 .clients-item:not(:last-child) {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 .clients-link {
   width: 100%;
@@ -362,7 +363,7 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--color-social-media);
-  border: solid var(--color-social-media);
+  border: 1px solid var(--color-social-media);
   border-radius: 4px;
 }
 .clients-link:hover,
