@@ -4,13 +4,13 @@
   --third-color-text: #000000;
   --second-bg-color: #f5f4fa;
   --third-bg-color: #2f303a;
-  --fourth-bg-color: #C4C4C4;
+  --fourth-bg-color: #c4c4c4;
   --accent-color: #2196f3;
   --border-color: #ececec;
-  --border-second-color:#eeeeee;
+  --border-second-color: #eeeeee;
   --primary-white-color: #ffffff;
   --secondary-white-color: rgba(255, 255, 255, 0.6);
-  --color-social-media: #AFB1B8;
+  --color-social-media: #afb1b8;
 }
 html {
   box-sizing: border-box;
@@ -85,7 +85,6 @@ img {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
-
 }
 .logo-web {
   font-family: 'Raleway';
@@ -164,7 +163,8 @@ img {
   text-align: center;
   max-width: 1600px;
   height: 600px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/imghero.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/imghero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -284,7 +284,8 @@ img {
   padding-bottom: 30px;
   width: calc((100% - 90px) / 4);
   background-color: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team-item:not(:last-child) {
@@ -314,7 +315,7 @@ img {
 .team-list .social-item {
   width: 44px;
   height: 44px;
-  }
+}
 .team-list .social-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -351,7 +352,6 @@ img {
 .clients-item {
   width: 170px;
   height: 92px;
-  
 }
 .clients-item:not(:last-child) {
   margin-right: 30px;
@@ -383,7 +383,7 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
-  }
+}
 .footer-logo-web {
   font-family: 'Raleway';
   font-weight: 700;
@@ -406,6 +406,13 @@ img {
   list-style: none;
   font-style: normal;
 }
+.footer-address-social {
+  display: flex;
+}
+.footer-address-list {
+  width: 231px;
+  margin-right: 70px;
+}
 .footer .link {
   color: var(--primary-white-color);
   text-decoration: none;
@@ -419,6 +426,48 @@ img {
 }
 .footer .contacts {
   color: var(--secondary-white-color);
+}
+.footer-social-media {
+  padding-top: 12px;
+  width: 206px;
+}
+.footer-social-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+}
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-social-icon {
+  fill: currentColor;
 }
 /* portfolio */
 .portfolio {
@@ -458,7 +507,8 @@ img {
 .button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* list of projects */
 .portfolio-link {
@@ -488,7 +538,8 @@ img {
   margin-bottom: 0px;
 }
 .portfolio-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-dscr {
   padding: 20px 24px;
